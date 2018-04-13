@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+input , textarea{
+  width: 300px;
+  height: 30px;padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+label{
+  display: block; 
+  margin-bottom: 3px;
+}
+.list_wrap{
+  background: #fff;
+  width: 248px;
+  text-align: left;
+  max-height: 300px;
+  height: 150px;
+  margin-bottom: 20px;
+  padding: 12px;
+  list-style: none;
+  display: inline-block;
+  margin-left: 10px;
+  box-shadow: 2px 2px 15px #ccc;
+} 
+.myListdata{
+  width: 96%;
+  margin: 0 auto;
+  border: 1px solid#efecec;
+  padding: 2px;
+  height: 90px;
+  overflow-y: auto
+}
+.addBtn{
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  padding: 10px 20px;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  }
+.myBtnrmv button {
+color: #fff;
+background-color: #337ab7;
+border-color: #2e6da4;
+display: inline-block;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-image: none;
+border: 1px solid transparent;
+border-radius: 4px;
+}
+.myBtnrmv{
+  text-align: right;
+  padding-right:5px; 
+}
+.authorsign{
+  color: green;
+  padding: 10px 0px;
+  font-weight: bold;
+}
